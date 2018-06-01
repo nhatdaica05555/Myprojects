@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bs3-portfilio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/anime.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body style="font-family:'Montserrat Alternates', sans-serif;">
+ <div style="margin-bottom:30px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 logo">
+              <h1 style="margin:0px;margin-top:15px;font-size:35px;">bui dinh nhat</h1>
+
+              <h3 style="margin:0px;">front-end developer</h3>
+          </div>
+          <div class="col-lg-6 col-md-8 col-md-push-0 col-sm-8 col-sm-push-1">
+            <nav class="navbar navbar-default" style="margin:0px;">
+                <div class="container-fluid">
+                    <div class="navbar-header"><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                    <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right menuright" style="margin-right:0px;margin-top:15px;">
+                        <li class="active" role="presentation"><a href="#">home</a></li>
+                        <li role="presentation"><a href="#">resume</a></li>
+                        <li role="presentation"><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+</div>
+</div>
+<div>
+    <div class="container" style="margin-top:20px;">
+        <div class="row">
+            <div class="col-md-5"><img class="img-circle avatar" src="assets/img/12644925_896896490426894_6780795259176873686_n.jpg" style="width:100%;"></div>
+            <div class="col-lg-7 col-md-7 info">
+                <h1> <a style="color:#34495e;text-decoration: none;" href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Nhat.","I Love Web Design.", "I Love You."]'>
+                    <span class="wrap"></span>
+                </a></h1>
+                <h3>a bit about me ...</h3>
+                <div class="row link-info">
+                    <div class="col-lg-3 col-lg-push-0 col-md-4 col-md-push-0 col-sm-4 col-sm-push-0 col-xs-8 col-xs-push-3">
+                        <h3 class="square" style="background-color:#e67e22;" onclick="dislayResume()">resume</h3>
+                    </div>
+                    
+                    <div class="col-lg-3 col-lg-push-0 col-md-4 col-md-push-0 col-sm-4 col-sm-push-0 col-xs-8 col-xs-push-3">
+                        <h3 class="square" onclick="dislaySkill()" style="background-color:#1abc9c;">Skills</h3>
+                    </div>
+                    <div class="col-lg-3 col-lg-push-0 col-md-3 col-md-push-0 col-sm-4 col-sm-push-0 col-xs-8 col-xs-push-3">
+                        <h3 onclick="dislayProject()"class="square" style="background-color:#f39c12;">projects</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 abcxyz">
+                        <p>Hello, My name is Nhat, I'm currently a last-year student at post and telecommunication institute of technology. </p>
+
+                        <p>During school time, I got confused about whether the knowledge i learned can be applied for the real job. I sought many rectuiting pages where i can fingure out what i'm missing, what i have to improve to get a job. Finally, I choose my own journey, i want to be a Front-End Developer. And now, let's consider my CV, if it's good enough or flukily it's look fine with you, please call me!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer" style="margin-top:60px;">
+    <div class="container" style="padding-top:25px;padding-bottom:25px;">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 footer-one">
+                <div class="row">
+                    <div class="col-lg-3 col-lg-push-0 col-md-3 col-md-push-0 col-sm-5 col-sm-push-4 col-xs-4 col-xs-push-5 aa"><i class="glyphicon glyphicon-earphone footer-icon"></i></div>
+                    <div class="col-lg-9 col-lg-push-0 col-md-9 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-12">
+                        <h4>call</h4>
+                        <p>0165 667 8519</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 footer-one">
+                <div class="row">
+                    <div class="col-lg-3 col-lg-push-0 col-md-3 col-md-push-0 col-sm-5 col-sm-push-4 col-xs-4 col-xs-push-5 aa"><i class="glyphicon glyphicon-user footer-icon"></i></div>
+                    <div class="col-lg-push-0 col-md-9 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-12">
+                        <h4>email</h4>
+                        <p>buidinhnhat2009@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 footer-one">
+                <div class="row">
+                    <div class="col-lg-push-0 col-md-3 col-md-push-0 col-sm-5 col-sm-push-4 col-xs-4 col-xs-push-5 aa"><i class="glyphicon glyphicon-globe footer-icon"></i></div>
+                    <div class="col-lg-push-0 col-md-9 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-12">
+                        <h4>social links</h4><a href="#"><i class="fa fa-facebook" style="margin-right:20px;padding:10px;background-color:white;padding-top:8px;padding-bottom:8px;color:#e67e22;"></i></a><a href="#"><i class="fa fa-google" style="padding:10px;padding-bottom:8px;padding-top:8px;background-color:white;color:#e67e22;"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume-info aproject">
+        <div class="party">
+            <div class="content projects">
+                <a href="https://github.com/bootstrapstudio/bootstrap-better-nav">https://github.com/bootstrapstudio/bootstrap-better-nav</a>
+            </div>
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fas fa-times-circle title="close"></i>
+    </div>
+    <div class="resume-info askill">
+        <div class="party">
+            <div class="content skill">
+             <ul>
+                <li>Excellent knowledge in HTML5, CSS3, Bootstrap, JavaScript,Jquery</li>
+                <li>Convert PSD file to HTML</li>
+                <li>Experience with responsive design and mobile web</li>
+                <li>Experience with control system Git </li>
+                <li>Improving AngularJS </li> 
+                <li>Have a good command of Computer Skills</li>
+                <li>Proficiency in English communication</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+<div class="resume-info aresume">
+        <div class="party">
+            <div class="content resume">
+                <a href="https://github.com/bootstrapstudio/bootstrap-better-nav">https://github.com/bootstrapstudio/bootstrap-better-nav</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/text.min.js"></script>
+<script src="assets/js/anime.js"></script>
+
+</body>
+<script>
+    var resume =  document.getElementsByClassName('square')[0]
+    var skill = document.getElementsByClassName('square')[1]
+    var project = document.getElementsByClassName('square')[2]
+    var close = document.getElementsByClassName('icon')[0]
+
+    resume.addEventListener('mouseover',function(){
+        resume.classList.add('hvr-shutter-in-vertical');
+    })
+    skill.addEventListener('mouseover',function(){
+        skill.classList.add('hvr-sweep-to-left');
+        
+    })
+    project.addEventListener('mouseover',function(){
+        project.classList.add('hvr-bounce-to-bottom');
+    })
+
+    resume.addEventListener('click',function(){
+        document.getElementsByClassName('modal')[0].classList.add('is-active');
+    })
+    skill.addEventListener('click',function(){
+        skill.classList.add('hvr-sweep-to-left');  
+    })
+    project.addEventListener('click',function(){
+        project.classList.add('hvr-bounce-to-bottom');
+    })
+
+    close.addEventListener('click',function(){
+        var getClose = document.getElementsByClassName('resume-info')
+        for (let i =0;i<getClose.length;i++){
+            getClose[i].style.display = 'none';
+
+        }
+        close.style.display='none';
+
+    })
+
+    function dislayProject(){
+        document.getElementsByClassName('aproject')[0].style.display = 'block';
+        close.style.display="block";
+    }
+    function dislaySkill(){
+        document.getElementsByClassName('askill')[0].style.display = 'block';
+        close.style.display="block";
+    }
+    function dislayResume(){
+        document.getElementsByClassName('aresume')[0].style.display = 'block';
+        close.style.display="block";
+    }
+</script>
+</html>
