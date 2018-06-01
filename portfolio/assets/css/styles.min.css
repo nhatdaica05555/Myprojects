@@ -1,105 +1,174 @@
-.link-info h3,.logo h1,.logo h3{text-align:center}*{margin:0;padding:0}
-
-.content a {
-    display: block;
-    margin-top: 130px;
+.link-info h3,.logo h1,.logo h3{
+    text-align:center
 }
-
-.icon {
-    transition: 0.5s;
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    color: white;
-    font-size: 50px;
-    cursor: pointer;
-    z-index: 100;
+*{
+    margin:0;
+    padding:0
 }
-
-.icon:hover {
-    transform: scale(1.1) rotate(45deg);
+ .content a {
+     display: block;
+     margin-top: 130px;
 }
-
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding-left: 30px;
-    padding-right: 30px;
-    background: white;
-    height: 310px;
-    animation: floatin 1s forwards;
+ .icon {
+     transition: 0.5s;
+     position: absolute;
+     right: 5%;
+     top: 5%;
+     color: white;
+     font-size: 50px;
+     cursor: pointer;
+     z-index: 100;
 }
-
-.content.resume {
-    background: white;
+ .icon:hover {
+     transform: scale(1.1) rotate(45deg);
 }
-
-.content.skill li {
-    line-height: 30px;
+ .content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     padding-left: 30px;
+     padding-right: 30px;
+     background: white;
+     height: 310px;
+     animation: floatin 1s forwards;
 }
-
-.content.skill li:first-child {
-    margin-top: 35px;
+ .content.resume {
+     background: white;
 }
-
-@keyframes floatin{
-    from{
-        opacity: 0;
-        transform: scale(0) translate(100%,100%)
+ .content.skill li {
+     line-height: 30px;
+}
+ .content.skill li:first-child {
+     margin-top: 35px;
+}
+ @keyframes floatin{
+     from{
+         opacity: 0;
+         transform: scale(0) translate(100%,100%) 
     }
-    to{
-        opacity: 1;
-        transform: scale(1) translate(-50%,-50%);
+     to{
+         opacity: 1;
+         transform: scale(1) translate(-50%,-50%);
     }
 }
-
-.content h1 {
-    line-height: 320px;
-    font-size: 24px;
+ .content h1 {
+     line-height: 320px;
+     font-size: 24px;
 }
-
-.resume-info {}
-
-.party {
-    position: relative;
-    /* background: white; */
-    height: 100%;
+ .resume-info {
 }
-
-.resume-info {
-    position: fixed;
-    top: 0;
-    background: rgba(44, 62, 80, 0.7);
-    height: 100%;
-    width: 100%;
+ .party {
+     position: relative;
+    /* background: white;
+     */
+     height: 100%;
 }
-
-.menuright li {
-    transition: 0.5s;
-}.navbar.navbar-default{background:0 0;border:none;box-shadow:none}.footer-icon,.link-info h3{border-radius:50%;color:#fff}.logo h3{text-transform:capitalize}.footer-one h4,.info h1,.link-info h3,.logo h1,.menuright a{text-transform:uppercase}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{background:#2ecc71;color:#fff;border-radius: 20px;}
-
-.menuright li:hover a {
-    font-size: 20px;
+ .resume-info {
+     position: fixed;
+     top: 0;
+     background: rgba(44, 62, 80, 0.7);
+     height: 100%;
+     width: 100%;
 }
-
-.menuright li a {
-    transition: 1s;
-}.info h1{font-size:40px;letter-spacing:10px}.info h3{letter-spacing:2px}.link-info h3{height:157px;width:157px;line-height:157px;cursor:pointer}.aa{line-height:70px}.footer-icon{font-size:25px;padding:20px;background:#e67e22}.footer-one h4{font-weight:700;color:#fff}body{background:#dfe6e9}#footer{background:#8e44ad}.footer-one p{color:#fff}@media (max-width:991px){.h4,h4,p{text-align:center}.fa.fa-facebook{margin-left:30px}.h1,.h3,h1,h3{text-align:center}}@media (max-width:767px){.h1,.h3,h1,h3{text-align:center}.fa.fa-facebook{margin-left:39%}}@media (max-width:500px){.aa{margin-left:-18px}}
-@media (min-width: 500px) and (max-width: 768px) { 
+ .menuright li {
+     transition: 0.5s;
+}
+.navbar.navbar-default{
+    background:0 0;
+    border:none;
+    box-shadow:none
+}
+.footer-icon,.link-info h3{
+    border-radius:50%;
+    color:#fff
+}
+.logo h3{
+    text-transform:capitalize
+}
+.footer-one h4,.info h1,.link-info h3,.logo h1,.menuright a{
+    text-transform:uppercase
+}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{
+    background:#2ecc71;
+    color:#fff;
+    border-radius: 20px;
+}
+ .menuright li:hover a {
+     font-size: 20px;
+}
+ .menuright li a {
+     transition: 1s;
+}
+.info h1{
+    font-size:40px;
+    letter-spacing:10px
+}
+.info h3{
+    letter-spacing:2px
+}
+.link-info h3{
+    height:157px;
+    width:157px;
+    line-height:157px;
+    cursor:pointer
+}
+.aa{
+    line-height:70px
+}
+.footer-icon{
+    font-size:25px;
+    padding:20px;
+    background:#e67e22
+}
+.footer-one h4{
+    font-weight:700;
+    color:#fff
+}
+body{
+    background:#dfe6e9
+}
+#footer{
+    background:#8e44ad
+}
+.footer-one p{
+    color:#fff
+}
+@media (max-width:991px){
+    .h4,h4,p{
+        text-align:center
+    }
+    .fa.fa-facebook{
+        margin-left:30px
+    }
+    .h1,.h3,h1,h3{
+        text-align:center
+    }
+}
+@media (max-width:767px){
+    .h1,.h3,h1,h3{
+        text-align:center
+    }
+    .fa.fa-facebook{
+        margin-left:39%
+    }
+}
+@media (max-width:500px){
+    .aa{
+        margin-left:-18px
+    }
+}
+ @media (min-width: 500px) and (max-width: 768px) {
     /* STYLES HERE */
-    .link-info h3{
-        margin-left:15%;
+     .link-info h3{
+         margin-left:15%;
     }
 }
-
-.resume-info{
-    display: none;
+ .resume-info{
+     display: none;
 }
-
-.icon{
-    position: fixed;
-    display: none;
+ .icon{
+     position: fixed;
+     display: none;
 }
-
+ 
